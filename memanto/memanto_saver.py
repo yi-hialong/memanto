@@ -36,7 +36,8 @@ import httpx
 
 from langgraph.checkpoint.base import BaseCheckpointSaver
 from langgraph.checkpoint.metadata import CheckpointMetadata
-from langgraph.checkpoint.serde.base import SerializerProtocol
+# SerializerProtocol (optional for custom serde; we use CheckpointSerializer)
+# from langgraph.checkpoint.serde.base import SerializerProtocol
 from langchain_core.runnables import RunnableConfig
 
 logger = logging.getLogger(__name__)
