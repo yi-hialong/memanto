@@ -23,7 +23,7 @@ Prerequisites:
 import os
 
 from langgraph.graph import StateGraph, START, END
-from memanto_saver import MemantoSaver
+from memanto import MemantoSaver
 
 
 # Define state schema
