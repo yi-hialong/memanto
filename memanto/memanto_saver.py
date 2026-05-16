@@ -15,7 +15,7 @@ Usage:
     4. Use in LangGraph:
 
         from langgraph.graph import StateGraph
-        from memanto_saver import MemantoSaver
+        from memanto import MemantoSaver
 
         checkpointer = MemantoSaver(
             moorcheh_api_key="your-api-key",
@@ -276,7 +276,7 @@ class MemantoSaver(BaseCheckpointSaver):
 
         import os
         from langgraph.graph import StateGraph
-        from memanto_saver import MemantoSaver
+        from memanto import MemantoSaver
 
         checkpointer = MemantoSaver(
             moorcheh_api_key=os.environ["MOORCHEH_API_KEY"],
